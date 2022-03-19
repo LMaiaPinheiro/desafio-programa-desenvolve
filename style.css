@@ -1,0 +1,89 @@
+body {
+  color: #6ddad3;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+/*Cabeçalho*/
+header {
+  background: #132235;
+  padding: 20px 0;
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: rgba(109, 218, 211);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgba(109, 218, 211, 0.5);
+  text-decoration: underline;
+}
+
+/*Quem Somos*/
+
+.banner {
+  width: 100%;
+}
+.titulo-quemSomos {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+  clear: left;
+}
+.titulo-quemSomos:first-letter {
+  font-weight: bold;
+}
+
+#quemSomos {
+  padding: 3em 0;
+  background-color: rgb(109, 218, 211);
+  width: 940px;
+  margin: 0 auto;
+  color: #132235;
+}
+
+.quemSomos p {
+  margin-bottom: 1em;
+}
+
+.quemSomos strong {
+  font-weight: bold;
+}
+.quemSomos em {
+  font-style: italic;
+}
+
+.logo {
+  width: 250px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .quemSomos {
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+}

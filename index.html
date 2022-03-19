@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>F4Life</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/cabecalho.css" rel="stylesheet" />
+    <link href="css/chamada.css" rel="stylesheet" />
+    <link href="css/sobre.css" rel="stylesheet" />
+    <link href="css/contato.css" rel="stylesheet" />
+    <link href="css/rodape.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="cabecalho container">
+      <img
+        src="assets/f4life-logo-maior.png"
+        alt="Logo da F4Life"
+        class="cabecalho__logo"
+      />
+      <nav class="cabecalho__navegacao">
+        <ul>
+          <li class="cabecalho__link"><a href="#sobre">Quem Somos</a></li>
+          <li class="cabecalho__link"><a href="#contato">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre" class="sobre container">
+        <div class="sobre__conteudo">
+          <h2 class="sobre__titulo">Quem Somos</h2>
+          <p class="sobre__texto">
+            F4Life é uma empresa de aluguéis de repúblicas para
+            <strong class="sobre__texto--destaque"
+              >pessoas universitárias</strong
+            >.
+          </p>
+          <p class="sobre__texto">
+            Similar aos modelos de Quinto Andar e Loft, a empresa realiza
+            reformas e prepara moradias para recepção de pessoas universitárias
+            em um ambiente específico e otimizado para a vida de graduação.
+          </p>
+      
+          <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+              Usamos tecnologia para garantir uma experiência segura em todas as etapas do processo de aluguel e venda.
+          </p>
+        </div>
+      <section id="contato" class="contato container">
+        <h2 class="contato__titulo">Contato</h2>
+        <p>Entre em contato com a gente</p>
+        <form class="forms__contato" action="">
+          <fieldset class="forms__divisao">
+            <legend class="label__contato">Email</legend>
+            <input type="email" name="email" id="email">
+            
+          </fieldset>
+          <fieldset class="forms__divisao">
+              <legend class="label__contato">Mensagem</legend>
+              <textarea name="mensagem" id="mensagem" cols="60" rows="10"></textarea>
+          </fieldset>
+          <button class="contato__botao botao" id="submit">Enviar</button>
+        </form>
+      </section>
+    </main> 
+    <footer class="rodape container">
+           <img src="assets/f4life.png" alt="Logo da F4Life" class="rodape__logo" />
+             <p>&copy; Todos os direitos reservados</p>
+      <ul class="rodape__social">
+        <li>
+          <a href="https://www.facebook.com" target="_blank" class="rodape__midia"
+            ><img src="assets/facebook.svg" alt="Ícone do Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" class="rodape__midia"
+            ><img src="assets/twitter.svg" alt="Ícone do twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank" class="rodape__midia"
+            ><img src="assets/instagram.svg" alt="Ícone do Instagram"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
